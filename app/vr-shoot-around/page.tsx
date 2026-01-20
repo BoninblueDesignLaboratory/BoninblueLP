@@ -34,9 +34,7 @@ export default function VRShootAround() {
             Realistic Basketball Simulator
           </h2>
           <p className="text-gray-300 leading-relaxed text-sm md:text-base">
-            Experience the ultimate physics-based basketball simulation in VR. 
-            "VR SHOOT AROUND" allows you to practice shooting with realistic physics, 
-            play with local video files on a virtual court screen, and compete on global leaderboards.
+            Experience the ultimate physics-based basketball simulation in VR. "VR SHOOT AROUND" is a simulator that provides fantastic physical calculations, immersive sounds, and a rich virtual court. You can practice shooting with realistic physics, play local video files on the court screen, and compete on global leaderboards. Don't worry if you aren't a sharpshooter—features like "Throwing Power Assist" and "G.O.A.T. Assist" allow anyone to sink long shots like an NBA player. Let's release your frustration!
           </p>
           
           <div className="flex flex-col gap-4 pt-4">
