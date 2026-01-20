@@ -30,4 +30,4 @@ yarn-error.log*
 
 # ignored directories
 /public/shared
-/public/movies
+/public/movies/*.mp4
