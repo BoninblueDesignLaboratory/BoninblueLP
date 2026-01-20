@@ -3,7 +3,7 @@
 import Link from "next/link";
 import WireframeBackground from "@/components/WireframeBackground";
 
-export default function PrivacyPolicy() {
+export default function PrivacyPolicySteam() {
   return (
     <>
       <WireframeBackground />
@@ -22,7 +22,7 @@ export default function PrivacyPolicy() {
         <header className="flex justify-between items-center border-b border-white/20 pb-8">
           <h1 className="text-[1.5rem] md:text-[2.4rem] font-heading font-bold tracking-widest text-white">
             VR SHOOT AROUND
-            <span className="block text-sm md:text-xl text-white mt-2 tracking-normal">PRIVACY POLICY (META STORE)</span>
+            <span className="block text-sm md:text-xl text-white mt-2 tracking-normal">PRIVACY POLICY (STEAM)</span>
           </h1>
           <Link href="/vr-shoot-around" className="text-sm text-gray-500 hover:text-white transition-colors">
             [BACK TO PRODUCT]
@@ -44,14 +44,13 @@ export default function PrivacyPolicy() {
               <div className="bg-black/50 p-8 rounded-xl border border-white/10 space-y-4">
                 <h3 className="text-lg text-white border-b border-white/10 pb-2 mb-4">Collection and Use of Information</h3>
                 <p>
-                  This app collects specific user data through the Meta Platform features to provide leaderboard functionality. Specifically, we collect and process the following data:
+                  This app collects specific user data through the Steam Platform features to provide leaderboard functionality. Specifically, we collect and process the following data:
                 </p>
                 <ul className="list-disc pl-5 space-y-2 text-gray-400">
-                  <li><strong className="text-white">USER_ID</strong>: To uniquely identify the user for score recording.</li>
-                  <li><strong className="text-white">USER_PROFILE</strong>: To display the user&apos;s name (User Name) on the leaderboards.</li>
+                  <li><strong className="text-white">USER ID</strong>: To uniquely identify the user for score recording.</li>
                 </ul>
                 <p>
-                  This data is used solely for the purpose of identifying users and displaying scores on the in-game Leaderboards. It is not shared with third parties or used for any other purposes. If your user profile information is set to private in your Meta Privacy Settings, this information will not be retrieved.
+                  This data is used solely for the purpose of identifying users and displaying scores on the in-game Leaderboards. It is not shared with third parties or used for any other purposes.
                 </p>
               </div>
 
@@ -61,20 +60,6 @@ export default function PrivacyPolicy() {
                 <p>
                   The collected data is processed securely and is only retained as long as necessary to maintain the leaderboard entries. We do not store this data on external servers for marketing or analysis purposes.
                 </p>
-              </div>
-
-              {/* Data Deletion Requests */}
-              <div className="bg-black/50 p-8 rounded-xl border border-white/10 space-y-4">
-                <h3 className="text-lg text-white border-b border-white/10 pb-2 mb-4">Data Deletion Requests</h3>
-                <p>We provide the following mechanisms for users to request the deletion of their data:</p>
-                <ol className="list-decimal pl-5 space-y-4 text-gray-400">
-                  <li>
-                    <strong className="text-white">In-Game Deletion</strong>: You can delete your leaderboard entry and associated data instantly by pressing the &quot;DELETE ENTRY&quot; button on the in-game leaderboard interface.
-                  </li>
-                  <li>
-                    <strong className="text-white">Manual Request</strong>: If you are unable to access the game, have uninstalled the app, or prefer to request deletion via support, please contact us at the email address below. We will process your data deletion request promptly.
-                  </li>
-                </ol>
               </div>
 
               {/* Changes to this Privacy Policy */}

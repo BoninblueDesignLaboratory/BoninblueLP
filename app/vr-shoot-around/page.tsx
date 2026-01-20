@@ -87,8 +87,11 @@ export default function VRShootAround() {
                 "Collects USER_ID and USER_PROFILE for leaderboard functionality only. Data is not shared with third parties."
               </p>
               <div className="mt-4">
+                <Link href="/vr-shoot-around/privacy-steam" className="text-xs text-gray-300 hover:text-cyan-400 decoration-dotted underline underline-offset-4 block mb-2">
+                  VIEW FULL POLICY (STEAM)
+                </Link>
                 <Link href="/vr-shoot-around/privacy" className="text-xs text-gray-300 hover:text-cyan-400 decoration-dotted underline underline-offset-4">
-                  VIEW FULL POLICY
+                  VIEW FULL POLICY (META STORE)
                 </Link>
               </div>
            </div>
