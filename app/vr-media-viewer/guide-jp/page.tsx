@@ -23,7 +23,7 @@ export default function GuideJp() {
         <header className="flex justify-between items-center border-b border-white/20 pb-8">
           <h1 className="text-[1.5rem] md:text-[2.4rem] font-heading font-bold tracking-widest text-white">
             VR MEDIA VIEWER
-            <span className="block text-sm md:text-xl text-white mt-2 tracking-normal">ユーザーズガイド（日本語）</span>
+            <span className="block text-sm md:text-xl text-white mt-2 tracking-normal">ユーザーズガイド</span>
           </h1>
           <Link href="/vr-media-viewer" className="text-sm text-gray-500 hover:text-white transition-colors">
             [BACK TO PRODUCT]
